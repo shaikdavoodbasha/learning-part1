@@ -205,29 +205,29 @@ console.log(
 // })
 // .catch((rej)=>{console.log('Hello')}
 
-const p1 = new Promise((res,rej)=>{
-    setTimeout(()=>{
-        res("Task one")
-    },2000)
-})
-const p2 = new Promise((res,rej)=>{
-    setTimeout(()=>{
-        res("Task Two")
-    },3000)
-})
-const p3 = new Promise((res,rej)=>{
-    setTimeout(()=>{
-        res("Task Three")
-    },4000)
-})
+// const p1 = new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         res("Task one")
+//     },2000)
+// })
+// const p2 = new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         res("Task Two")
+//     },3000)
+// })
+// const p3 = new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         res("Task Three")
+//     },4000)
+// })
 
-async function one() {
-     const ad1 = await p1;
-     console.log(ad1)
-     const ad2 = await p2;
-     console.log(ad2)
-     const ad3 = await p3;
-     console.log(ad3)
+// async function one() {
+//      const ad1 = await p1;
+//      console.log(ad1)
+//      const ad2 = await p2;
+//      console.log(ad2)
+//      const ad3 = await p3;
+//      console.log(ad3)
     
-}
-one()
+// }
+// one()
