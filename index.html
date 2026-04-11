@@ -1,15 +1,2067 @@
+<!-- Careers - Skillxa Technologies -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Careers | Skillxa Technologies</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline": "#946e68",
+                    "on-secondary-fixed-variant": "#474646",
+                    "tertiary-container": "#0079c0",
+                    "primary-fixed-dim": "#ffb4a9",
+                    "primary": "#bc0009",
+                    "on-primary-fixed": "#410001",
+                    "inverse-primary": "#ffb4a9",
+                    "surface-dim": "#dadada",
+                    "on-secondary": "#ffffff",
+                    "secondary-container": "#e5e2e1",
+                    "secondary": "#5f5e5e",
+                    "tertiary": "#006099",
+                    "on-error": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-high": "#e8e8e8",
+                    "tertiary-fixed": "#cfe5ff",
+                    "surface-container": "#eeeeee",
+                    "on-tertiary-container": "#fdfcff",
+                    "primary-fixed": "#ffdad5",
+                    "tertiary-fixed-dim": "#99cbff",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "on-primary-fixed-variant": "#930005",
+                    "surface": "#f9f9f9",
+                    "secondary-fixed": "#e5e2e1",
+                    "primary-container": "#ea000e",
+                    "on-surface-variant": "#5f3e3a",
+                    "surface-tint": "#c00009",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-fixed": "#001d33",
+                    "outline-variant": "#eabcb5",
+                    "on-primary-container": "#fffbff",
+                    "surface-container-low": "#f3f3f3",
+                    "surface-container-lowest": "#ffffff",
+                    "error": "#ba1a1a",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-bright": "#f9f9f9",
+                    "on-surface": "#1a1c1c",
+                    "surface-variant": "#e2e2e2",
+                    "on-background": "#1a1c1c",
+                    "on-tertiary-fixed-variant": "#004a78",
+                    "inverse-surface": "#2f3131",
+                    "inverse-on-surface": "#f1f1f1",
+                    "on-secondary-container": "#656464",
+                    "on-primary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "background": "#f9f9f9"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+        }
+    </style>
 </head>
-<body>
-    <h1>Interview Practice</h1>
-    <button id="one">click me </button>
-   
-    <script src="index.js"></script>
-</body>
-</html>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl shadow-sm shadow-red-500/5 transition-all duration-300">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-extrabold tracking-tighter text-neutral-900 dark:text-white font-headline">Skillxa</div>
+<div class="hidden md:flex items-center gap-8 font-headline font-bold tracking-tight">
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Platform</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Services</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Culture</a>
+<a class="text-red-600 dark:text-red-500 border-b-2 border-red-600 pb-1" href="#">Careers</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden sm:block text-neutral-600 font-bold px-4 py-2 hover:opacity-80 transition-all duration-300 scale-95 active:scale-90">Log In</button>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-red-500/20 hover:opacity-90 transition-all duration-300 scale-95 active:scale-90">Get Started</button>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative px-8 py-24 md:py-32 max-w-7xl mx-auto overflow-hidden">
+<div class="grid lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-8">
+<span class="inline-block px-4 py-1.5 bg-primary-fixed text-on-primary-fixed-variant rounded-full text-xs font-bold uppercase tracking-widest">Careers at Skillxa</span>
+<h1 class="text-5xl md:text-7xl font-extrabold font-headline tracking-tighter leading-[1.1] text-on-surface">
+                        Join the Architects of <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Innovation.</span>
+</h1>
+<p class="text-xl md:text-2xl text-secondary max-w-2xl leading-relaxed">
+                        At Skillxa, we don't just write code; we build the future. Join a team where precision meets creativity.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="px-8 py-4 bg-primary text-white rounded-xl font-bold hover:shadow-2xl hover:shadow-primary/20 transition-all scale-100 active:scale-95" href="#positions">View Open Roles</a>
+<a class="px-8 py-4 bg-surface-container-lowest text-on-surface rounded-xl font-bold border border-outline-variant/15 hover:bg-surface-container-low transition-all" href="#culture">Our Culture</a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-square rounded-xl overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-700 group">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" data-alt="Modern high-tech workspace with collaborative team of engineers working at glass desks with warm ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCD7769GYq6mNsIA_IEd62f4J8766h8T6aFMq5qVk4kxwr2OyVvQ-hCXQhGGuXJLgi3_2LuWB-kQJQLLXPHZjYNtKdcnVKE__tJNwLwfy-d6Yzb-eZzVpFkJUwfqO-0I4HyBVkmBb-Evy0Tdwn-3SfHi4mS81Qm_hM_TYr6lueKBpm8ENIxeUouIB-R1YnS87Y0eDrT1zBLEwNqUL6FWuUuTo84DeX52oheQzDyLk2Vn2BTZA0xkmuSeVTuTV2oOLTAJc6zGnvghLeq"/>
+</div>
+<!-- Decorative floating element -->
+<div class="absolute -bottom-6 -left-6 glass-card p-6 rounded-lg shadow-xl border border-outline-variant/10 hidden md:block">
+<div class="flex items-center gap-4">
+<div class="flex -space-x-3">
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="Portrait of a diverse male developer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmYibNdfvAIcHtlO3BdHObL45yAmHZXTp7ANjAHR-rzYv0WrD9eDsbxMtZfT5INFWYFhbjdUvCUa1x9XNIGn0TfdIXV_nLqX5s4fGS-dX0oU_l-OAYuNWWw6vPrL1nqr1QJEduOQcObr2omxIKFNmhdF-n3Sf8Do0dGPDE7dYDkDKVMgvn2g_H9DKTzpY7iwLtpGKQHdM3QDfVRyVnZEaDBfTE8wvNxh-7qmF_HPByn2-Yp-lBUP7szg5FO_o0qMZ72g-IH8uuQfQG"/>
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="Portrait of a female software architect" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBalWXtGR5bKsvviWYUsf42OaQhY0RBQD5zDHUOb5rSy9aXB-OzaKHogQJ_FD6KWugq9C_kxw-j9xP8C25EUjDLOoWw6mSByK6yhyHRL2Qc3yzk8C8InmKkpj3GXOf1OejQ9biK7iEzdeS9cyG4ZIPOxweEDqbv5-UbAJBdoIfjhfK2urrPFDmTe_257UfhdiBQYjmM3okhBiFTaeaCU6QdBlj0Qad7u0cM6WMT5kgJquKwlv7wbc48Vjdar_ErmWBbBbnp1Qul6Yxv"/>
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="Portrait of a male engineering manager" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAr1uyfJUmKA5y7fTZKoBT45Ttn9T_J5oP-muD34oiQbrUnPC5zsP3Jj9IYnacpeV-zczU8vBIcA5hyxhm18NYANKDckiNrwISviv2CUihwUUOAczTT3R7uqCOlmGi28NVLldq1iBs0Q4claFpPIce-LoCZ-iA1tCcchWnN4MIZPH2og0CGJLULHFzj3hmPOwW87Uj-fxyXD1zgJkVSHQZkAGPK94i0M6KirSx5JQ8I_wmIUsA51Ny5ZREvH5UeGBCE_o9wFQ0PW1Bb"/>
+</div>
+<div>
+<p class="text-sm font-bold">120+ Innovators</p>
+<p class="text-xs text-secondary">Join the journey</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Culture Section: Our Vibe -->
+<section class="bg-surface-container-low py-24 md:py-32" id="culture">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row gap-16 items-start">
+<div class="md:w-1/3 sticky top-32">
+<h2 class="text-4xl md:text-5xl font-extrabold font-headline tracking-tighter mb-6">Our Vibe</h2>
+<p class="text-lg text-secondary leading-relaxed">
+                            We've curated an environment that prioritizes speed without sacrificing soul. High-performance is our standard; collaboration is our engine.
+                        </p>
+</div>
+<div class="md:w-2/3 grid sm:grid-cols-2 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-xl space-y-4 hover:shadow-xl transition-all duration-500">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Futuristic Mindset</h3>
+<p class="text-secondary">We don't wait for the next big thing. We build it using cutting-edge stacks and architectural patterns.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl space-y-4 hover:shadow-xl transition-all duration-500 mt-8">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="psychology">psychology</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Continuous Learning</h3>
+<p class="text-secondary">Weekly tech talks, conference passes, and a culture that celebrates the pursuit of mastery.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl space-y-4 hover:shadow-xl transition-all duration-500">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="groups">groups</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Collaborative Flow</h3>
+<p class="text-secondary">Radical transparency and low ego. We win together, we fail fast together, and we grow together.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl space-y-4 hover:shadow-xl transition-all duration-500 mt-8">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="shutter_speed">shutter_speed</span>
+</div>
+<h3 class="text-xl font-bold font-headline">Radical Flexibility</h3>
+<p class="text-secondary">Work where you are most productive. We value outcomes over hours spent at a desk.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Benefits Section -->
+<section class="py-24 md:py-32 px-8 max-w-7xl mx-auto">
+<div class="text-center mb-20 space-y-4">
+<h2 class="text-4xl md:text-6xl font-extrabold font-headline tracking-tighter">Perks for Pioneers</h2>
+<p class="text-secondary text-lg max-w-2xl mx-auto">Designed to empower your life, not just your work day.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Health & Wellness -->
+<div class="bg-white p-8 rounded-lg shadow-sm border border-outline-variant/15 hover:border-primary/30 transition-colors group">
+<div class="text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="favorite">favorite</span>
+</div>
+<h3 class="text-lg font-bold mb-3 font-headline">Health &amp; Wellness</h3>
+<p class="text-sm text-secondary leading-relaxed">Comprehensive medical, dental, and mental health support for you and yours.</p>
+</div>
+<!-- Remote-First Culture -->
+<div class="bg-white p-8 rounded-lg shadow-sm border border-outline-variant/15 hover:border-primary/30 transition-colors group">
+<div class="text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="home_work">home_work</span>
+</div>
+<h3 class="text-lg font-bold mb-3 font-headline">Remote-First</h3>
+<p class="text-sm text-secondary leading-relaxed">Work from anywhere in the world. We provide a top-tier home office stipend.</p>
+</div>
+<!-- Learning Stipends -->
+<div class="bg-white p-8 rounded-lg shadow-sm border border-outline-variant/15 hover:border-primary/30 transition-colors group">
+<div class="text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="school">school</span>
+</div>
+<h3 class="text-lg font-bold mb-3 font-headline">Learning Stipends</h3>
+<p class="text-sm text-secondary leading-relaxed">$3,000 annual budget for books, courses, and certifications of your choice.</p>
+</div>
+<!-- Equity -->
+<div class="bg-white p-8 rounded-lg shadow-sm border border-outline-variant/15 hover:border-primary/30 transition-colors group">
+<div class="text-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl" data-icon="token">token</span>
+</div>
+<h3 class="text-lg font-bold mb-3 font-headline">Equity &amp; Growth</h3>
+<p class="text-sm text-secondary leading-relaxed">Generous equity packages. We want you to own a piece of the future you build.</p>
+</div>
+</div>
+</section>
+<!-- Open Positions Section -->
+<section class="py-24 md:py-32 bg-surface" id="positions">
+<div class="max-w-5xl mx-auto px-8">
+<div class="flex justify-between items-end mb-12">
+<h2 class="text-4xl md:text-5xl font-extrabold font-headline tracking-tighter">Current Openings</h2>
+<p class="text-primary font-bold hidden sm:block">4 Active Roles</p>
+</div>
+<div class="space-y-4">
+<!-- Role 1 -->
+<div class="bg-surface-container-lowest p-6 md:p-8 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-6 hover:scale-[1.01] transition-transform duration-300 border border-transparent hover:border-primary/10">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<span class="px-3 py-1 bg-neutral-100 text-[10px] font-bold uppercase tracking-wider rounded-full">Engineering</span>
+<span class="px-3 py-1 bg-red-50 text-red-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Full-Time</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold font-headline">Senior Full Stack Engineer</h3>
+<p class="text-secondary mt-1">Remote / React, Node.js, AWS</p>
+</div>
+<button class="bg-on-surface text-white px-8 py-3 rounded-full font-bold hover:bg-primary transition-colors text-center">Apply Now</button>
+</div>
+<!-- Role 2 -->
+<div class="bg-surface-container-lowest p-6 md:p-8 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-6 hover:scale-[1.01] transition-transform duration-300 border border-transparent hover:border-primary/10">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<span class="px-3 py-1 bg-neutral-100 text-[10px] font-bold uppercase tracking-wider rounded-full">Data Science</span>
+<span class="px-3 py-1 bg-red-50 text-red-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Remote</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold font-headline">AI Research Lead</h3>
+<p class="text-secondary mt-1">Remote / LLMs, PyTorch, RAG Architecture</p>
+</div>
+<button class="bg-on-surface text-white px-8 py-3 rounded-full font-bold hover:bg-primary transition-colors text-center">Apply Now</button>
+</div>
+<!-- Role 3 -->
+<div class="bg-surface-container-lowest p-6 md:p-8 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-6 hover:scale-[1.01] transition-transform duration-300 border border-transparent hover:border-primary/10">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<span class="px-3 py-1 bg-neutral-100 text-[10px] font-bold uppercase tracking-wider rounded-full">Design</span>
+<span class="px-3 py-1 bg-red-50 text-red-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Hybrid</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold font-headline">UI/UX Designer</h3>
+<p class="text-secondary mt-1">New York / Figma, Motion Design, Systems Thinking</p>
+</div>
+<button class="bg-on-surface text-white px-8 py-3 rounded-full font-bold hover:bg-primary transition-colors text-center">Apply Now</button>
+</div>
+<!-- Role 4 -->
+<div class="bg-surface-container-lowest p-6 md:p-8 rounded-xl flex flex-col md:flex-row md:items-center justify-between gap-6 hover:scale-[1.01] transition-transform duration-300 border border-transparent hover:border-primary/10">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<span class="px-3 py-1 bg-neutral-100 text-[10px] font-bold uppercase tracking-wider rounded-full">Infrastructure</span>
+<span class="px-3 py-1 bg-red-50 text-red-700 text-[10px] font-bold uppercase tracking-wider rounded-full">Full-Time</span>
+</div>
+<h3 class="text-xl md:text-2xl font-bold font-headline">DevOps Architect</h3>
+<p class="text-secondary mt-1">Remote / Kubernetes, Terraform, CI/CD Optimization</p>
+</div>
+<button class="bg-on-surface text-white px-8 py-3 rounded-full font-bold hover:bg-primary transition-colors text-center">Apply Now</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial Section -->
+<section class="py-24 md:py-32 px-8 overflow-hidden bg-white">
+<div class="max-w-7xl mx-auto">
+<div class="relative bg-neutral-900 rounded-xl p-12 md:p-24 overflow-hidden">
+<!-- Background Glow -->
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/20 blur-[100px] rounded-full"></div>
+<div class="absolute -bottom-24 -left-24 w-96 h-96 bg-primary/10 blur-[100px] rounded-full"></div>
+<div class="relative z-10 max-w-3xl">
+<span class="material-symbols-outlined text-primary text-6xl mb-8" data-icon="format_quote" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<h2 class="text-3xl md:text-5xl font-extrabold font-headline leading-tight text-white mb-12">
+                            "At Skillxa, I'm not just shipping features; I'm solving problems that actually move the needle for global infrastructure. The agency I'm given here is unparalleled."
+                        </h2>
+<div class="flex items-center gap-6">
+<img class="w-16 h-16 rounded-full object-cover border-2 border-primary" data-alt="Professional portrait of Sarah Jenkins, Senior Software Engineer at Skillxa, smiling confidently" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZiUNmtazxMauemRzOvnExMy2rshymxlCAwfZtLTCvDxRiTvpy221_8zLMDkj4-x9v3sSpu3XeNcFK0JzwpttIrHTmIaJIRMtPGoUnAqHBo14ZYJDKyMqktbYmXY1mZ4omorb2xaj87qcHC0qb7qM49dMk0TqGp-1dzvJlLmTTZ3We5fJ3egAOleq7W3eTSmmQiX5rmrjwNrZRkUFRZnHVJcKIFxNztHaeyoibOPuFfWI51D2VXm6sDJB8Kxt9UrqSerjKV0JewRP7"/>
+<div>
+<p class="text-xl font-bold text-white font-headline">Sarah Jenkins</p>
+<p class="text-neutral-400">Senior Software Engineer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24 px-8 text-center max-w-4xl mx-auto">
+<h2 class="text-4xl md:text-6xl font-extrabold font-headline tracking-tighter mb-8">Ready to Build the Future?</h2>
+<p class="text-xl text-secondary mb-12">We are always looking for exceptional talent. Even if you don't see a perfect match, reach out.</p>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-12 py-5 rounded-full text-lg font-bold shadow-2xl shadow-red-500/30 hover:scale-105 transition-transform">Send a General Application</button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 bg-neutral-50 dark:bg-neutral-900">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 border-t border-neutral-200/50 dark:border-neutral-800/50 pt-12 max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0">
+<span class="font-['Plus_Jakarta_Sans'] font-bold text-neutral-900 dark:text-white text-xl">Skillxa</span>
+<p class="font-['Inter'] text-sm text-neutral-500 mt-2">© 2024 Skillxa Technologies. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-neutral-500 hover:text-red-500 hover:underline decoration-red-500/30 transition-all font-['Inter'] text-sm" href="#">Privacy Policy</a>
+<a class="text-neutral-500 hover:text-red-500 hover:underline decoration-red-500/30 transition-all font-['Inter'] text-sm" href="#">Terms of Service</a>
+<a class="text-neutral-500 hover:text-red-500 hover:underline decoration-red-500/30 transition-all font-['Inter'] text-sm" href="#">Cookie Settings</a>
+<a class="text-neutral-500 hover:text-red-500 hover:underline decoration-red-500/30 transition-all font-['Inter'] text-sm" href="#">Contact Us</a>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- About Us - Skillxa Technologies -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About | Skillxa Technologies</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-primary-fixed": "#410001",
+                "inverse-primary": "#ffb4a9",
+                "surface-container-highest": "#e2e2e2",
+                "surface-variant": "#e2e2e2",
+                "surface-container-high": "#e8e8e8",
+                "surface-tint": "#c00009",
+                "on-secondary": "#ffffff",
+                "inverse-on-surface": "#f1f1f1",
+                "secondary-fixed": "#e5e2e1",
+                "primary-fixed": "#ffdad5",
+                "on-surface": "#1a1c1c",
+                "on-tertiary-fixed": "#001d33",
+                "on-secondary-fixed": "#1c1b1b",
+                "on-secondary-container": "#656464",
+                "secondary-fixed-dim": "#c8c6c5",
+                "on-error-container": "#93000a",
+                "on-tertiary-container": "#fdfcff",
+                "primary-container": "#ea000e",
+                "tertiary-fixed": "#cfe5ff",
+                "on-tertiary": "#ffffff",
+                "tertiary": "#006099",
+                "on-surface-variant": "#5f3e3a",
+                "on-primary-container": "#fffbff",
+                "secondary": "#5f5e5e",
+                "on-primary-fixed-variant": "#930005",
+                "secondary-container": "#e5e2e1",
+                "error-container": "#ffdad6",
+                "background": "#f9f9f9",
+                "primary": "#bc0009",
+                "on-secondary-fixed-variant": "#474646",
+                "surface-container": "#eeeeee",
+                "surface": "#f9f9f9",
+                "on-background": "#1a1c1c",
+                "outline-variant": "#eabcb5",
+                "outline": "#946e68",
+                "tertiary-fixed-dim": "#99cbff",
+                "surface-container-lowest": "#ffffff",
+                "surface-bright": "#f9f9f9",
+                "primary-fixed-dim": "#ffb4a9",
+                "surface-dim": "#dadada",
+                "tertiary-container": "#0079c0",
+                "error": "#ba1a1a",
+                "on-primary": "#ffffff",
+                "inverse-surface": "#2f3131",
+                "on-tertiary-fixed-variant": "#004a78",
+                "surface-container-low": "#f3f3f3",
+                "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                "DEFAULT": "1rem",
+                "lg": "2rem",
+                "xl": "3rem",
+                "full": "9999px"
+            },
+            "fontFamily": {
+                "headline": ["Plus Jakarta Sans"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+      }
+      .kinetic-shadow {
+        box-shadow: 0px 20px 40px rgba(26, 28, 28, 0.06);
+      }
+      .glow-red:hover {
+        box-shadow: 0 0 30px rgba(188, 0, 9, 0.2);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed-variant">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(26,28,28,0.06)]">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-2xl font-black tracking-tighter text-neutral-900 dark:text-white font-headline">Skillxa Technologies</div>
+<div class="hidden md:flex items-center space-x-8 font-headline font-bold tracking-tight">
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors hover:opacity-80 transition-all duration-300" href="#">Home</a>
+<a class="text-red-600 dark:text-red-500 border-b-2 border-red-600 pb-1 hover:opacity-80 transition-all duration-300" href="#">About</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors hover:opacity-80 transition-all duration-300" href="#">Services</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors hover:opacity-80 transition-all duration-300" href="#">Projects</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors hover:opacity-80 transition-all duration-300" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-8 py-3 rounded-full font-bold scale-95 active:scale-90 transition-transform shadow-lg shadow-primary/20">
+                Get Started
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative pt-24 pb-32 overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-8">
+<span class="inline-block px-4 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-bold text-sm tracking-widest uppercase">Our Identity</span>
+<h1 class="text-6xl md:text-7xl lg:text-8xl font-headline font-extrabold tracking-tighter leading-[0.95] text-on-surface">
+                        Designing the <span class="text-primary italic">Kinetic</span> future of tech.
+                    </h1>
+<p class="text-xl text-secondary max-w-xl leading-relaxed">
+                        Skillxa Technologies is more than a software house. We are architects of digital resilience, turning complex problems into scalable, high-performance realities.
+                    </p>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-xl overflow-hidden aspect-[4/5] kinetic-shadow">
+<img class="w-full h-full object-cover" data-alt="Modern collaborative tech office with large windows, glass walls, and sleek minimalist furniture in a soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAdaNMAVTRUx-fMYymVt0AbaMfT93sHKi8WjnWc-OdGGV-Qlu46SipE6E6hdwK3PF8Bo9eZy1PeLjJd_MeWv079v2677BwRhz9PbTNmAnh1uCVqWYj8ZkzZfL7ZPQL8mMRZ8ApPlHCzv1m9wqtL9G_8_qPFd64BlHjx-snfqQ9emOEHZd1F4vTUeomn2no8sMxsxVV9FIMKbbSgzkZN196bEHNxHAtB0uEQguP4KC1712O-dtT-SUBvKA4lcTPxTIgPhSUeQF_AH6O"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 to-transparent"></div>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-surface-container-lowest glass-effect p-8 rounded-lg kinetic-shadow max-w-[240px]">
+<p class="text-primary text-4xl font-headline font-black">100+</p>
+<p class="text-sm font-semibold tracking-tight uppercase text-secondary">Global Solutions Delivered</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision: Bento Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Mission -->
+<div class="md:col-span-7 bg-surface-container-lowest p-12 rounded-xl kinetic-shadow flex flex-col justify-between">
+<div class="space-y-6">
+<div class="w-14 h-14 bg-primary-fixed rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<h2 class="text-4xl font-headline font-extrabold tracking-tight">Our Mission</h2>
+<p class="text-lg text-secondary leading-relaxed">
+                                To drive radical innovation and bulletproof scalability. We empower businesses by crafting technology that doesn't just work—it evolves alongside your ambitions.
+                            </p>
+</div>
+<div class="mt-8 pt-8 border-t border-outline-variant/15 flex items-center gap-4">
+<span class="text-primary font-bold">Innovation</span>
+<div class="w-1.5 h-1.5 rounded-full bg-outline-variant"></div>
+<span class="text-primary font-bold">Scalability</span>
+</div>
+</div>
+<!-- Vision -->
+<div class="md:col-span-5 bg-primary text-white p-12 rounded-xl shadow-2xl shadow-primary/30 flex flex-col justify-center relative overflow-hidden">
+<div class="relative z-10 space-y-4">
+<h2 class="text-4xl font-headline font-extrabold tracking-tight">The Vision</h2>
+<p class="text-lg opacity-90 leading-relaxed">
+                                To be the global standard for high-performance technology consulting, where design excellence meets engineering precision.
+                            </p>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-10">
+<span class="material-symbols-outlined text-[200px]" data-icon="visibility">visibility</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values: Horizontal Cards -->
+<section class="py-32">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<h2 class="text-5xl font-headline font-extrabold tracking-tighter">Core Principles</h2>
+<p class="text-secondary max-w-xs">The underlying DNA of every project we touch.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="p-8 bg-surface-container rounded-lg group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary text-4xl mb-6 group-hover:text-white transition-colors" data-icon="bolt">bolt</span>
+<h3 class="text-xl font-headline font-bold mb-3 group-hover:text-white">Velocity</h3>
+<p class="text-sm text-secondary leading-relaxed group-hover:text-white/80">Rapid iteration without compromising structural integrity.</p>
+</div>
+<div class="p-8 bg-surface-container-lowest rounded-lg kinetic-shadow border border-outline-variant/10 group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary text-4xl mb-6 group-hover:text-white transition-colors" data-icon="shield_check">shield</span>
+<h3 class="text-xl font-headline font-bold mb-3 group-hover:text-white">Reliability</h3>
+<p class="text-sm text-secondary leading-relaxed group-hover:text-white/80">Uptime and security baked into the foundation of every line of code.</p>
+</div>
+<div class="p-8 bg-surface-container rounded-lg group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary text-4xl mb-6 group-hover:text-white transition-colors" data-icon="palette">palette</span>
+<h3 class="text-xl font-headline font-bold mb-3 group-hover:text-white">Design Mastery</h3>
+<p class="text-sm text-secondary leading-relaxed group-hover:text-white/80">Aesthetic precision that communicates authority and ease.</p>
+</div>
+<div class="p-8 bg-surface-container-lowest rounded-lg kinetic-shadow border border-outline-variant/10 group hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary text-4xl mb-6 group-hover:text-white transition-colors" data-icon="hub">hub</span>
+<h3 class="text-xl font-headline font-bold mb-3 group-hover:text-white">Connectivity</h3>
+<p class="text-sm text-secondary leading-relaxed group-hover:text-white/80">Systems that talk to each other seamlessly across the global stack.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Journey Timeline -->
+<section class="py-24 bg-white relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-5xl font-headline font-extrabold tracking-tighter mb-4">Our Evolution</h2>
+<p class="text-secondary">Milestones that defined our kinetic growth.</p>
+</div>
+<div class="relative">
+<div class="hidden md:block absolute top-1/2 left-0 w-full h-[1px] bg-outline-variant/30 -translate-y-1/2"></div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
+<div class="space-y-6 text-center md:text-left">
+<div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center mx-auto md:mx-0 font-bold">2020</div>
+<h4 class="text-xl font-headline font-bold">Inception</h4>
+<p class="text-sm text-secondary">Skillxa was born as a boutique firm focusing on cloud architecture.</p>
+</div>
+<div class="space-y-6 text-center md:text-left md:mt-12">
+<div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center mx-auto md:mx-0 font-bold">2022</div>
+<h4 class="text-xl font-headline font-bold">The Shift</h4>
+<p class="text-sm text-secondary">Pivoted to enterprise-grade SaaS and AI-driven automation solutions.</p>
+</div>
+<div class="space-y-6 text-center md:text-left">
+<div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center mx-auto md:mx-0 font-bold">2023</div>
+<h4 class="text-xl font-headline font-bold">Global Scale</h4>
+<p class="text-sm text-secondary">Expanded operations to 3 continents, serving Fortune 500 partners.</p>
+</div>
+<div class="space-y-6 text-center md:text-left md:mt-12">
+<div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center mx-auto md:mx-0 font-bold">Now</div>
+<h4 class="text-xl font-headline font-bold">Next-Gen</h4>
+<p class="text-sm text-secondary">Redefining the boundary between design and deep-tech performance.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="py-32">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex items-center gap-8 mb-20">
+<h2 class="text-5xl font-headline font-extrabold tracking-tighter shrink-0">The Curators</h2>
+<div class="h-[1px] w-full bg-outline-variant/30"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+<!-- Team Card 1 -->
+<div class="group relative">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 kinetic-shadow">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Portrait of a confident male tech executive with glasses, wearing a sleek black turtleneck against a neutral studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCox_T-ELAa97nIZt1qRnol3J9wcGcFGxgQGSrsujSWqfocY6a5ndZAA4-9UFL4FCq4vfouE7_hTGsVrad0oiQkc67tjfOMUCxOzB1BPP35sAD9MD5CJT-3EsOs0K8oPP8_wZv9OujTrHjHcD7ej9AW-L1h8vaTOH2rNJY6QcGyf8E-4YrtFKTrVaeWKEK0QSExm-pfbavHne9v0L4bjdza0MoBpy72slYtrVT53rlzOVq1411M2kcE6tm9waiE8b97eidsu9te-Aml"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<h4 class="text-2xl font-headline font-extrabold mb-1">Adrian Thorne</h4>
+<p class="text-primary font-bold uppercase text-xs tracking-widest mb-4">Founder &amp; Chief Architect</p>
+<div class="flex gap-4 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary" data-icon="link">link</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary" data-icon="mail">mail</span>
+</div>
+</div>
+<!-- Team Card 2 -->
+<div class="group relative">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 kinetic-shadow">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern professional woman with a soft smile, wearing a structured blazer, looking directly at the camera with confident lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrxdWZCbKGufGSAw5zddbT5nzt3B8FVobuY1bhidV3YHq7u5vgc2KlCGAViLcfT8ZcT9AYftQeZLEvcKHS8RRsjvW-WSNg5uzc0QMVp8RV45uBnGJvMcNwPZXLPuTzEbDJWPvepfgGC0EC-kFl01ThBKXL3lV146WZzA57fI_jiVV26n4XG6CQ-EWyvu5Ik27CRqFNz4GqrOGlhFpPz72WLEo1q4kkYZmBTWwGvhXAuGIWU6JWDFvic3xs7N3pdc0p_CBIOX9Gk9bm"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<h4 class="text-2xl font-headline font-extrabold mb-1">Elena Vance</h4>
+<p class="text-primary font-bold uppercase text-xs tracking-widest mb-4">VP of Design Excellence</p>
+<div class="flex gap-4 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary" data-icon="link">link</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary" data-icon="mail">mail</span>
+</div>
+</div>
+<!-- Team Card 3 -->
+<div class="group relative">
+<div class="aspect-[3/4] rounded-xl overflow-hidden mb-6 kinetic-shadow">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Young professional man in a tech office setting, wearing a smart casual outfit, blurred office lights in the background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU8gPtzWyp19mRNBxomG1-xZqa8L9-k5csXpue1nxQaJ0JwMXxkLZXQfLC3Lp49vnHNlumooXB96caGHE7vSzW2aP-rXddk9VIyuV9bEra4CwJ9a1aYQCXphOlGwW6zECq-Guxb2I5nLsZ80dFqreCkECGPhKhucCyGeD9IWjyt5gf1u2L2JHJUumoC8nEpPqER5IA3w-68hMMmbuVwtD7gpmCrUE7x9Uah1ZA9t7YXBN1gPKRr9JWOOWAZc5GwAT8lLaqmwp8SpLq"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<h4 class="text-2xl font-headline font-extrabold mb-1">Marcus Zhou</h4>
+<p class="text-primary font-bold uppercase text-xs tracking-widest mb-4">Head of Innovation</p>
+<div class="flex gap-4 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-2 group-hover:translate-y-0">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary" data-icon="link">link</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary" data-icon="mail">mail</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-7xl mx-auto px-6 mb-32">
+<div class="bg-surface-container-low rounded-xl p-16 relative overflow-hidden text-center">
+<div class="relative z-10 max-w-2xl mx-auto space-y-8">
+<h2 class="text-5xl font-headline font-extrabold tracking-tighter">Ready to curate your next breakthrough?</h2>
+<p class="text-lg text-secondary">Join the ranks of market leaders scaling with Skillxa precision.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+<button class="bg-primary text-white px-10 py-4 rounded-full font-bold shadow-xl shadow-primary/20 glow-red transition-all">Start a Project</button>
+<button class="bg-surface-container-lowest border border-outline-variant/15 px-10 py-4 rounded-full font-bold hover:bg-surface-container-low transition-all">Join the Team</button>
+</div>
+</div>
+<!-- Abstract Glows -->
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-primary/5 rounded-full blur-[100px]"></div>
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-primary-container/10 rounded-full blur-[100px]"></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-[3rem] mt-20 bg-neutral-50 dark:bg-neutral-900">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="text-xl font-bold text-neutral-900 dark:text-white font-headline">Skillxa Technologies</div>
+<p class="text-neutral-500 text-sm leading-relaxed max-w-[200px]">Architecting the future through kinetic design and scalable innovation.</p>
+</div>
+<div class="space-y-4">
+<h5 class="font-bold text-neutral-900 dark:text-white uppercase text-xs tracking-widest">Solutions</h5>
+<ul class="space-y-2 font-['Inter'] text-sm tracking-wide">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">Cloud Systems</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">AI Integration</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">UI/UX Design</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h5 class="font-bold text-neutral-900 dark:text-white uppercase text-xs tracking-widest">Company</h5>
+<ul class="space-y-2 font-['Inter'] text-sm tracking-wide">
+<li><a class="text-red-600 font-semibold transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">About Us</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">Careers</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">Newsletter</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h5 class="font-bold text-neutral-900 dark:text-white uppercase text-xs tracking-widest">Legal</h5>
+<ul class="space-y-2 font-['Inter'] text-sm tracking-wide">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">Privacy Policy</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200 inline-block" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 pb-8 flex flex-col md:flex-row justify-between items-center gap-4 border-t border-outline-variant/10 pt-8">
+<p class="text-neutral-500 text-xs font-['Inter'] tracking-wide">© 2024 Skillxa Technologies. All rights reserved.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-neutral-400 hover:text-primary cursor-pointer transition-colors" data-icon="language">language</span>
+<span class="material-symbols-outlined text-neutral-400 hover:text-primary cursor-pointer transition-colors" data-icon="public">public</span>
+<span class="material-symbols-outlined text-neutral-400 hover:text-primary cursor-pointer transition-colors" data-icon="share">share</span>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Our Projects - Skillxa Technologies -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Projects | Skillxa Technologies</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed": "#410001",
+                    "inverse-primary": "#ffb4a9",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-variant": "#e2e2e2",
+                    "surface-container-high": "#e8e8e8",
+                    "surface-tint": "#c00009",
+                    "on-secondary": "#ffffff",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed": "#e5e2e1",
+                    "primary-fixed": "#ffdad5",
+                    "on-surface": "#1a1c1c",
+                    "on-tertiary-fixed": "#001d33",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "on-secondary-container": "#656464",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#fdfcff",
+                    "primary-container": "#ea000e",
+                    "tertiary-fixed": "#cfe5ff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary": "#006099",
+                    "on-surface-variant": "#5f3e3a",
+                    "on-primary-container": "#fffbff",
+                    "secondary": "#5f5e5e",
+                    "on-primary-fixed-variant": "#930005",
+                    "secondary-container": "#e5e2e1",
+                    "error-container": "#ffdad6",
+                    "background": "#f9f9f9",
+                    "primary": "#bc0009",
+                    "on-secondary-fixed-variant": "#474646",
+                    "surface-container": "#eeeeee",
+                    "surface": "#f9f9f9",
+                    "on-background": "#1a1c1c",
+                    "outline-variant": "#eabcb5",
+                    "outline": "#946e68",
+                    "tertiary-fixed-dim": "#99cbff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#f9f9f9",
+                    "primary-fixed-dim": "#ffb4a9",
+                    "surface-dim": "#dadada",
+                    "tertiary-container": "#0079c0",
+                    "error": "#ba1a1a",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      /* Custom Hover Overlay for Projects */
+      .project-card:hover .project-overlay {
+        opacity: 0.9;
+        background-color: #bc0009; /* Using brand primary */
+      }
+      .project-card:hover img {
+        transform: scale(1.1);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-white">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(26,28,28,0.06)]">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-2xl font-black tracking-tighter text-neutral-900 dark:text-white font-headline">Skillxa Technologies</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-headline font-bold tracking-tight" href="#">Home</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-headline font-bold tracking-tight" href="#">About</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-headline font-bold tracking-tight" href="#">Services</a>
+<a class="text-red-600 dark:text-red-500 border-b-2 border-red-600 pb-1 font-headline font-bold tracking-tight" href="#">Projects</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-headline font-bold tracking-tight" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-8 py-3 rounded-full font-bold hover:opacity-80 transition-all duration-300 scale-95 active:scale-90 shadow-lg shadow-primary/20">
+                Get Started
+            </button>
+</div>
+</nav>
+<main class="min-h-screen">
+<!-- Hero Section -->
+<section class="py-24 px-6 max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row items-end justify-between gap-8 mb-20">
+<div class="max-w-2xl">
+<span class="text-primary font-bold tracking-widest text-xs uppercase mb-4 block">Our Portfolio</span>
+<h1 class="text-6xl md:text-8xl font-headline font-extrabold tracking-tighter leading-none mb-8">
+                        Precision <br/> <span class="text-primary-container">Engineering.</span>
+</h1>
+<p class="text-lg text-secondary leading-relaxed max-w-lg">
+                        We curate digital experiences that push the boundaries of modern technology. From AI-driven analytics to seamless cross-platform ecosystems.
+                    </p>
+</div>
+<div class="flex flex-wrap gap-3">
+<span class="px-6 py-2 rounded-full bg-surface-container-low text-on-surface-variant font-medium">All Works</span>
+<span class="px-6 py-2 rounded-full bg-surface-container-lowest text-on-surface font-medium border border-outline-variant/15">Web Apps</span>
+<span class="px-6 py-2 rounded-full bg-surface-container-lowest text-on-surface font-medium border border-outline-variant/15">Mobile</span>
+<span class="px-6 py-2 rounded-full bg-surface-container-lowest text-on-surface font-medium border border-outline-variant/15">AI Solutions</span>
+</div>
+</div>
+<!-- Bento Grid of Projects -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Project 1: Large Featured -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-xl bg-surface-container-lowest project-card transition-all duration-500">
+<div class="aspect-[16/9] w-full overflow-hidden">
+<img alt="AI Dashboard" class="w-full h-full object-cover transition-transform duration-700" data-alt="Modern minimalist data dashboard with glowing red accent charts and futuristic glass interface elements on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSQoNvcXUpsWWcnNPCTRKrCDbXkQzYMRfM0rztErmV647tG3Myvy3wFa3agxmK2ntVnTuLWMJMfgX-JbixErmQareuAcCiG-YWpotFahZcYCM6bR_bRVUkm_mhaHFzk0EnSPALF8Lj3qfHwC40PC2ur67kfyhnx7Ztck_cNhq8SG-Wyq--7von4gqhcvXbN1t4KtS8EHlGAPityph3dr5pTMRNiXaHWGm3ddF0fW9aSndowds62MJZgvcvvfmI3T7X_8qBngZeMDLG"/>
+</div>
+<!-- Hover Overlay -->
+<div class="project-overlay absolute inset-0 flex flex-col justify-end p-12 opacity-0 transition-opacity duration-300">
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-white/80 font-medium mb-2 block">Machine Learning</span>
+<h3 class="text-4xl font-headline font-bold text-white mb-6">NeuralTrace Analytics</h3>
+<div class="flex gap-3 mb-8">
+<span class="px-4 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">Python</span>
+<span class="px-4 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">AWS</span>
+<span class="px-4 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">React</span>
+</div>
+<button class="flex items-center gap-2 text-white font-bold group/btn">
+                                View Case Study 
+                                <span class="material-symbols-outlined transition-transform group-hover/btn:translate-x-2">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Project 2: Vertical Split -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-xl bg-surface-container-lowest project-card transition-all duration-500">
+<div class="aspect-[3/4] w-full overflow-hidden">
+<img alt="Mobile App" class="w-full h-full object-cover transition-transform duration-700" data-alt="Elegant smartphone display showing a clean white lifestyle app interface with red button accents on a minimalist desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNT7ib9oWpgYb4IECOEuMe0Y-z8OFoOKvVUezUULP8IaHaN7APOkzPpDl7BhAUQmvOT2jTCPebwh1pSTAkkuCFXZUcdbzLpnfXZ2Bz_8yH1Ro66O42T2OgrO2p7QY3lMffEyoKqT4jTeIUJvF3qSNf9rx0WunGy0v9G2byr0b8xAaJI3UdoV8VfQvaKSgrMC6Oqf0tTPji5b04VyfJEy5scLlOvmSYP3qonjlr0Q-XleXMdJnt8XO-XazyAOVgsytJw4OUwwNbCnP1"/>
+</div>
+<div class="project-overlay absolute inset-0 flex flex-col justify-end p-8 opacity-0 transition-opacity duration-300">
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-white/80 font-medium mb-2 block">Fintech</span>
+<h3 class="text-2xl font-headline font-bold text-white mb-4">Lumina Pay</h3>
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-3 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">Flutter</span>
+<span class="px-3 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">Firebase</span>
+</div>
+<button class="flex items-center gap-2 text-white font-bold text-sm">
+                                Explore <span class="material-symbols-outlined">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Project 3: Wide -->
+<div class="md:col-span-6 group relative overflow-hidden rounded-xl bg-surface-container-lowest project-card transition-all duration-500">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img alt="E-commerce Architecture" class="w-full h-full object-cover transition-transform duration-700" data-alt="Conceptual 3D architectural render of a digital storefront with glowing red neon lights and sleek glass panels" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBivG4uJg9AKWanU-wrTmx_2swZJjG3gNPlJUrY35LqHR1ypDZ7YYz9kC9y2syvnNfaUd6767IyCfijUVLxoExX7ToRp70rsk_l7qK33aOfFpoiuoGF_71OFuGqKAxaye8HXLHedML-lbZrcSuBtMfNBJCihZDCoXjqaBFV8h4oGDCA55h2t3zs5WAjsuuwS8WlUjlhQ39oSIMcFMO-YtHL5n71ylMvVGYRdBZ3gJYfTjaXH7m9hMCrKok_WpxmYikUxcBZwrJ3jeaz"/>
+</div>
+<div class="project-overlay absolute inset-0 flex flex-col justify-end p-10 opacity-0 transition-opacity duration-300">
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-white/80 font-medium mb-2 block">E-Commerce</span>
+<h3 class="text-3xl font-headline font-bold text-white mb-4">Velvet Cloud Retail</h3>
+<div class="flex gap-2 mb-6">
+<span class="px-3 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">Next.js</span>
+<span class="px-3 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">Tailwind</span>
+</div>
+<button class="flex items-center gap-2 text-white font-bold">
+                                View Full Project <span class="material-symbols-outlined">open_in_new</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Project 4: Wide -->
+<div class="md:col-span-6 group relative overflow-hidden rounded-xl bg-surface-container-lowest project-card transition-all duration-500">
+<div class="aspect-[4/3] w-full overflow-hidden">
+<img alt="Security Protocol" class="w-full h-full object-cover transition-transform duration-700" data-alt="High-tech server room background with dramatic red lighting and glowing digital data patterns on circuit boards" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV5s-cFiWCgTreSiYHjaClXzZ7YVhnGer9sk5HyE_eMb49WX2lDxlx5SALmxRwcKbqj8C36VlNwl0t_UbiDchzzBsB-uqpWZtOpZ0Rutih9Mcq3OA1DGeREDLzT7RYjUXNyFb_lUXq9_BBGaA6g8VRbBu5l7khwp5LUC88yHs9yaSKk7DrsXV0AWAgVth6MET8czfEOqFaUwqtWEo0w7noe7qA3yxQ5mX_iikI3FFiemsWs0sZQ9ZJj2ivSdehldoxraEKP_MOPVLv"/>
+</div>
+<div class="project-overlay absolute inset-0 flex flex-col justify-end p-10 opacity-0 transition-opacity duration-300">
+<div class="translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<span class="text-white/80 font-medium mb-2 block">Cybersecurity</span>
+<h3 class="text-3xl font-headline font-bold text-white mb-4">Aegis Core Defense</h3>
+<div class="flex gap-2 mb-6">
+<span class="px-3 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">Rust</span>
+<span class="px-3 py-1 rounded-full bg-white/20 text-white text-xs backdrop-blur-md">PostgreSQL</span>
+</div>
+<button class="flex items-center gap-2 text-white font-bold">
+                                Security Review <span class="material-symbols-outlined">verified_user</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Case Study Highlight -->
+<section class="py-32 bg-surface-container-low mt-20">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="bg-primary/5 rounded-full w-[120%] aspect-square absolute -top-20 -left-20 blur-3xl"></div>
+<div class="relative rounded-xl overflow-hidden shadow-2xl">
+<img alt="Team Collaboration" class="w-full" data-alt="Group of diverse professionals collaborating around a futuristic white touch table in a bright modern office with red accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkTgp0ROYaCac_a-pZ5wjhZ39JJarL7mj8JleFlzHp4ZxxrFHQbRaHgGyiy0XEI9BMeL9BeA9p4k-LWC2WkjimPPjopDnpDMn88Rpm2Gvv_7yEu1frVTt3w2mjVBajGZLeO85FNd20jrcfvLXC-CSybzbxNt2kHO7Gnes0TF5bE_txGbkWlQenWgZ95CFgwXKsUH_0E6qDKfPuR7Ra0wl4wy-u-TYkBQyzouUdwvhhxlpIPnOT9c2_znp32oENoypFcguq7zzed4F_"/>
+</div>
+<div class="absolute -bottom-10 -right-10 bg-white p-8 rounded-lg shadow-xl hidden lg:block border border-outline-variant/10">
+<div class="flex items-center gap-4">
+<span class="text-5xl font-black text-primary font-headline">98%</span>
+<p class="text-sm text-secondary font-medium">Efficiency increase for our<br/>enterprise partners.</p>
+</div>
+</div>
+</div>
+<div>
+<span class="text-primary font-bold tracking-widest text-xs uppercase mb-4 block">Case Study Spotlight</span>
+<h2 class="text-5xl font-headline font-extrabold tracking-tight mb-8">Redefining the <br/>Automotive Interface</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-10">
+                        We collaborated with leading automotive innovators to design a voice-first UI that integrates biometric feedback and real-time environmental data. The result was a 40% reduction in driver distraction.
+                    </p>
+<ul class="space-y-6 mb-12">
+<li class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">psychology</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">AI Integration</h4>
+<p class="text-sm text-secondary">Predictive maintenance algorithms.</p>
+</div>
+</li>
+<li class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">touch_app</span>
+</div>
+<div>
+<h4 class="font-bold text-on-surface">Zero-Lag Interaction</h4>
+<p class="text-sm text-secondary">Custom GPU-accelerated graphics engine.</p>
+</div>
+</li>
+</ul>
+<button class="group flex items-center gap-3 font-bold text-primary">
+                        Read the full story
+                        <span class="w-12 h-[2px] bg-primary group-hover:w-16 transition-all duration-300"></span>
+</button>
+</div>
+</div>
+</section>
+<!-- Dynamic Stats Section -->
+<section class="py-24 px-6 max-w-7xl mx-auto">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+<div>
+<span class="block text-5xl font-black font-headline text-on-surface mb-2 tracking-tighter">120+</span>
+<span class="text-secondary text-sm font-medium tracking-wide">COMPLETED PROJECTS</span>
+</div>
+<div>
+<span class="block text-5xl font-black font-headline text-on-surface mb-2 tracking-tighter">15</span>
+<span class="text-secondary text-sm font-medium tracking-wide">GLOBAL AWARDS</span>
+</div>
+<div>
+<span class="block text-5xl font-black font-headline text-on-surface mb-2 tracking-tighter">45</span>
+<span class="text-secondary text-sm font-medium tracking-wide">AI AGENTS DEPLOYED</span>
+</div>
+<div>
+<span class="block text-5xl font-black font-headline text-on-surface mb-2 tracking-tighter">9.8</span>
+<span class="text-secondary text-sm font-medium tracking-wide">CSAT SCORE</span>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="px-6 py-20">
+<div class="max-w-7xl mx-auto bg-neutral-950 rounded-xl p-12 md:p-24 relative overflow-hidden text-center">
+<!-- Background decorative elements -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[100px] rounded-full"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-primary-container/10 blur-[80px] rounded-full"></div>
+<div class="relative z-10">
+<h2 class="text-4xl md:text-6xl font-headline font-extrabold text-white mb-8 tracking-tight">Ready to build the future?</h2>
+<p class="text-neutral-400 text-lg max-w-2xl mx-auto mb-12">
+                        Our engineering team is ready to transform your vision into a scalable, high-performance digital product.
+                    </p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-6">
+<button class="bg-primary text-white px-10 py-4 rounded-full font-bold hover:scale-105 active:scale-95 transition-all shadow-xl shadow-primary/30">
+                            Start a Project
+                        </button>
+<button class="bg-white/10 text-white backdrop-blur-xl px-10 py-4 rounded-full font-bold border border-white/10 hover:bg-white/20 transition-all">
+                            View Services
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-neutral-50 dark:bg-neutral-900 w-full rounded-t-[3rem] mt-20">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="text-xl font-bold text-neutral-900 dark:text-white mb-6 font-headline tracking-tighter">Skillxa Technologies</div>
+<p class="text-neutral-500 font-body text-sm leading-relaxed mb-8">
+                    Crafting precision-driven software solutions for the modern enterprise.
+                </p>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full bg-neutral-200 dark:bg-neutral-800 flex items-center justify-center text-neutral-600 dark:text-neutral-400 hover:glow-red hover:text-red-600 cursor-pointer transition-all">
+<span class="material-symbols-outlined text-sm">public</span>
+</div>
+<div class="w-10 h-10 rounded-full bg-neutral-200 dark:bg-neutral-800 flex items-center justify-center text-neutral-600 dark:text-neutral-400 hover:glow-red hover:text-red-600 cursor-pointer transition-all">
+<span class="material-symbols-outlined text-sm">share</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-neutral-900 dark:text-white mb-6 font-headline uppercase text-xs tracking-widest">Platform</h4>
+<ul class="space-y-4">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Solutions</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Case Studies</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Pricing</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-neutral-900 dark:text-white mb-6 font-headline uppercase text-xs tracking-widest">Resources</h4>
+<ul class="space-y-4">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Newsletter</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Documentation</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Help Center</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-neutral-900 dark:text-white mb-6 font-headline uppercase text-xs tracking-widest">Company</h4>
+<ul class="space-y-4">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Careers</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Privacy Policy</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors text-sm font-body" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-neutral-200 dark:border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-neutral-500 text-sm font-body tracking-wide">© 2024 Skillxa Technologies. All rights reserved.</p>
+<div class="flex gap-8">
+<span class="text-xs font-bold text-red-700 dark:text-red-500 tracking-widest uppercase">London</span>
+<span class="text-xs font-bold text-red-700 dark:text-red-500 tracking-widest uppercase">New York</span>
+<span class="text-xs font-bold text-red-700 dark:text-red-500 tracking-widest uppercase">Dubai</span>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Our Services - Skillxa Technologies -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services | Skillxa Technologies</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Plus Jakarta Sans & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed": "#410001",
+                    "inverse-primary": "#ffb4a9",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-variant": "#e2e2e2",
+                    "surface-container-high": "#e8e8e8",
+                    "surface-tint": "#c00009",
+                    "on-secondary": "#ffffff",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed": "#e5e2e1",
+                    "primary-fixed": "#ffdad5",
+                    "on-surface": "#1a1c1c",
+                    "on-tertiary-fixed": "#001d33",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "on-secondary-container": "#656464",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#fdfcff",
+                    "primary-container": "#ea000e",
+                    "tertiary-fixed": "#cfe5ff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary": "#006099",
+                    "on-surface-variant": "#5f3e3a",
+                    "on-primary-container": "#fffbff",
+                    "secondary": "#5f5e5e",
+                    "on-primary-fixed-variant": "#930005",
+                    "secondary-container": "#e5e2e1",
+                    "error-container": "#ffdad6",
+                    "background": "#f9f9f9",
+                    "primary": "#bc0009",
+                    "on-secondary-fixed-variant": "#474646",
+                    "surface-container": "#eeeeee",
+                    "surface": "#f9f9f9",
+                    "on-background": "#1a1c1c",
+                    "outline-variant": "#eabcb5",
+                    "outline": "#946e68",
+                    "tertiary-fixed-dim": "#99cbff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#f9f9f9",
+                    "primary-fixed-dim": "#ffb4a9",
+                    "surface-dim": "#dadada",
+                    "tertiary-container": "#0079c0",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "inverse-surface": "#2f3131",
+                    "on-tertiary-fixed-variant": "#004a78",
+                    "surface-container-low": "#f3f3f3",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(24px);
+      }
+      .glow-on-hover:hover {
+        box-shadow: 0px 20px 40px rgba(188, 0, 9, 0.12);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<header class="sticky top-0 w-full z-50 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(26,28,28,0.06)]">
+<nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-2xl font-black tracking-tighter text-neutral-900 dark:text-white font-headline">Skillxa Technologies</div>
+<!-- Desktop Nav -->
+<div class="hidden md:flex items-center space-x-8 font-headline font-bold tracking-tight">
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Home</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">About</a>
+<a class="text-red-600 dark:text-red-500 border-b-2 border-red-600 pb-1" href="#">Services</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Projects</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Contact</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-full font-bold transition-all duration-300 hover:opacity-80 scale-95 active:scale-90">
+                    Get Started
+                </button>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<span class="inline-block bg-primary-fixed text-on-primary-fixed-variant px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6">Expertise &amp; Innovation</span>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface leading-[1.1] mb-8">
+                        Precision Digital <br/><span class="text-primary">Engineering.</span>
+</h1>
+<p class="text-lg text-secondary mb-10 max-w-lg leading-relaxed">
+                        We don't just build software; we curate high-performance digital ecosystems that scale with your vision. From AI integration to global cloud solutions.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold glow-on-hover transition-all">Explore Expertise</button>
+<button class="bg-surface-container-low text-on-surface px-8 py-4 rounded-xl font-bold border border-outline-variant/15 hover:bg-surface-container-lowest transition-all">Download Brochure</button>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square rounded-xl overflow-hidden shadow-2xl rotate-3 scale-95 transition-transform hover:rotate-0 duration-700">
+<img alt="Cybersecurity workstation" class="w-full h-full object-cover" data-alt="high-tech computer workstation with glowing red and blue server racks in a dark futuristic data center setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBIASjoCakGjjn4umxekRjqsa32AC3N7yhMVAmRddMvS9Li-tY6U5k6NOCvQ8-swtaoM18Y_g-dafeCOic24lcJC7ado_9v3NmgDt2BnLrzyYp7X2H1X7lWzzVEEDBVfApzmDjujC2j6pwvasL2fP1kusBdbLVqsthRydB47AvbTRf2OsKPCNw1P1o2gnUs733ar30518JMXfL6VpjzzosQ_qxmCur-ggXFQImV60L8KAKIlHxruE4fH0jUovSN62MQoribfnb5GQy"/>
+</div>
+<!-- Decorative Floating Element -->
+<div class="absolute -bottom-8 -left-8 glass-card p-6 rounded-lg shadow-xl max-w-[240px] border border-outline-variant/15">
+<div class="flex items-center gap-3 mb-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-xs font-bold tracking-widest uppercase text-secondary">Active Systems</span>
+</div>
+<p class="text-sm font-headline font-bold">99.9% Uptime across all client clusters</p>
+</div>
+</div>
+</div>
+<!-- Background Glow -->
+<div class="absolute top-0 right-0 -z-10 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px]"></div>
+</section>
+<!-- Services Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-20">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight mb-4">Core Capabilities</h2>
+<div class="w-20 h-1.5 bg-primary rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Mobile App Development -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">smartphone</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">Mobile App Development</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Native and cross-platform experiences engineered for fluid interaction and high conversion.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- Web Application Development -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">language</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">Web Application Development</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Robust, scalable web architectures using modern frameworks for mission-critical performance.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- Cloud & DevOps Solutions -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">cloud_done</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">Cloud &amp; DevOps Solutions</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Accelerate deployment cycles with automated CI/CD pipelines and resilient cloud infrastructure.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- UI/UX Design -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">palette</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">UI/UX Design</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Editorial-grade aesthetics meeting user-centric psychology for unforgettable interfaces.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- AI & Automation Solutions -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">neurology</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">AI &amp; Automation Solutions</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Integrating machine learning and predictive analytics to streamline complex business workflows.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- SaaS Product Development -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">layers</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">SaaS Product Development</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Multi-tenant architectures built for scale, security, and recurring value delivery.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- API Development & Integration -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">api</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">API Development &amp; Integration</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Connecting ecosystems with high-throughput, secure, and well-documented API endpoints.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- Maintenance & Scaling Services -->
+<div class="group bg-surface-container-lowest p-8 rounded-xl transition-all duration-300 hover:-translate-y-2 glow-on-hover flex flex-col h-full border border-outline-variant/15">
+<div class="mb-6 w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-3xl">monitoring</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-4 group-hover:text-primary transition-colors">Maintenance &amp; Scaling Services</h3>
+<p class="text-secondary text-sm leading-relaxed mb-6 flex-grow">Continuous optimization and monitoring to ensure your product grows without technical debt.</p>
+<a class="text-primary font-bold text-xs tracking-widest uppercase flex items-center gap-2 group/link" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Dynamic Featured Section (Asymmetric) -->
+<section class="py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-3/5 relative">
+<div class="relative z-10 rounded-xl overflow-hidden shadow-2xl">
+<img alt="Cloud Infrastructure" class="w-full aspect-video object-cover" data-alt="abstract visualization of global data network with glowing red nodes and fiber optic connections on a dark sleek background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1bIwLxPZU2Wjp8yqaw5b-AxUegA62nEPpotJuf789w_IsrAf0fnhdg2M768AI-_dS99p5x5w5Q_nfs4t_GfPRl-1sgmmeQ7Ia6Qzwl6C7odxKQYMPniZgvb7PNZatN4Gs3zcU7e_2oL7u31eCgTFMgAkHdcgNYh2b6PK40KbG_IU25tfMq0KC--ky5xK0QBa1PcSpi_8VIDjeKYAkzDzm9jVzFFu9W9LLe5n21tKQK1OZsDgJy_UOrXC6A7FRaMtyX2TAJo5dVUnv"/>
+</div>
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-10"></div>
+<div class="absolute -bottom-10 -left-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl -z-10"></div>
+</div>
+<div class="w-full md:w-2/5">
+<h3 class="font-headline text-3xl font-extrabold mb-6">Built for the <br/><span class="text-primary">Next Billion Users.</span></h3>
+<p class="text-secondary leading-relaxed mb-8">
+                            We specialize in high-concurrency environments. Whether it's a fintech platform handling millions of transactions or a retail app during peak load, our engineering ensures zero lag.
+                        </p>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-bold text-sm">Real-time Performance Monitoring</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-bold text-sm">Security-First Architecture</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-bold text-sm">Elastic Scaling Capabilities</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-7xl mx-auto px-6 mb-24">
+<div class="bg-gradient-to-br from-primary to-primary-container rounded-xl p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
+<div class="relative z-10">
+<h2 class="text-on-primary font-headline text-4xl md:text-5xl font-extrabold mb-8">Ready to Scale Your Digital Presence?</h2>
+<p class="text-on-primary/80 max-w-2xl mx-auto text-lg mb-10">Connect with our engineering specialists today for a deep dive into your project requirements.</p>
+<button class="bg-white text-primary px-10 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-transform shadow-lg">Schedule a Consultation</button>
+</div>
+<!-- Decorative element -->
+<div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M0 100 C 20 0, 50 0, 100 100" fill="none" stroke="white" stroke-width="0.5"></path>
+<path d="M0 100 C 40 10, 70 10, 100 100" fill="none" stroke="white" stroke-width="0.5"></path>
+</svg>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-neutral-50 dark:bg-neutral-900 w-full rounded-t-[3rem] mt-20">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="text-xl font-bold text-neutral-900 dark:text-white mb-6 font-headline">Skillxa Technologies</div>
+<p class="text-neutral-500 text-sm leading-relaxed">Pioneering the future of digital product engineering with precision and luminescence.</p>
+</div>
+<div>
+<h4 class="font-headline font-bold text-sm uppercase tracking-widest mb-6">Services</h4>
+<ul class="space-y-4 font-['Inter'] text-sm tracking-wide">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">App Development</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">AI Solutions</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Cloud Strategy</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Product Design</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-sm uppercase tracking-widest mb-6">Company</h4>
+<ul class="space-y-4 font-['Inter'] text-sm tracking-wide">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Careers</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Newsletter</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold text-sm uppercase tracking-widest mb-6">Connect</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-primary hover:text-on-primary transition-all duration-200 hover:translate-y-[-2px]" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-primary hover:text-on-primary transition-all duration-200 hover:translate-y-[-2px]" href="#">
+<span class="material-symbols-outlined text-lg">mail</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center hover:bg-primary hover:text-on-primary transition-all duration-200 hover:translate-y-[-2px]" href="#">
+<span class="material-symbols-outlined text-lg">share</span>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-outline-variant/10">
+<p class="text-center text-neutral-500 text-xs font-['Inter'] tracking-wide">© 2024 Skillxa Technologies. All rights reserved.</p>
+</div>
+</footer>
+</body></html>
+
+<!-- Contact Us - Skillxa Technologies -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed": "#410001",
+                    "inverse-primary": "#ffb4a9",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-variant": "#e2e2e2",
+                    "surface-container-high": "#e8e8e8",
+                    "surface-tint": "#c00009",
+                    "on-secondary": "#ffffff",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed": "#e5e2e1",
+                    "primary-fixed": "#ffdad5",
+                    "on-surface": "#1a1c1c",
+                    "on-tertiary-fixed": "#001d33",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "on-secondary-container": "#656464",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#fdfcff",
+                    "primary-container": "#ea000e",
+                    "tertiary-fixed": "#cfe5ff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary": "#006099",
+                    "on-surface-variant": "#5f3e3a",
+                    "on-primary-container": "#fffbff",
+                    "secondary": "#5f5e5e",
+                    "on-primary-fixed-variant": "#930005",
+                    "secondary-container": "#e5e2e1",
+                    "error-container": "#ffdad6",
+                    "background": "#f9f9f9",
+                    "primary": "#bc0009",
+                    "on-secondary-fixed-variant": "#474646",
+                    "surface-container": "#eeeeee",
+                    "surface": "#f9f9f9",
+                    "on-background": "#1a1c1c",
+                    "outline-variant": "#eabcb5",
+                    "outline": "#946e68",
+                    "tertiary-fixed-dim": "#99cbff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#f9f9f9",
+                    "primary-fixed-dim": "#ffb4a9",
+                    "surface-dim": "#dadada",
+                    "tertiary-container": "#0079c0",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "inverse-surface": "#2f3131",
+                    "on-tertiary-fixed-variant": "#004a78",
+                    "surface-container-low": "#f3f3f3",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glow-red:hover {
+            box-shadow: 0 0 20px rgba(188, 0, 9, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed-variant">
+<!-- TopNavBar -->
+<header class="sticky top-0 w-full z-50 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(26,28,28,0.06)]">
+<nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-2xl font-black tracking-tighter text-neutral-900 dark:text-white font-headline">Skillxa Technologies</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#">Home</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#">About</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#">Services</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#">Projects</a>
+<a class="text-red-600 dark:text-red-500 border-b-2 border-red-600 pb-1 font-['Plus_Jakarta_Sans'] font-bold tracking-tight" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-3 rounded-full font-bold hover:opacity-80 transition-all duration-300 scale-95 active:scale-90 shadow-lg">
+                Get Started
+            </button>
+</nav>
+</header>
+<main class="relative overflow-hidden">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-6 pt-24 pb-12">
+<div class="flex flex-col md:flex-row items-end justify-between gap-8 mb-16">
+<div class="max-w-2xl">
+<span class="inline-block bg-primary-fixed text-on-primary-fixed-variant px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6">Connect With Us</span>
+<h1 class="text-6xl md:text-8xl font-headline font-extrabold tracking-tighter text-on-surface leading-[0.9]">
+                        Let’s build <br/>something <span class="text-primary italic">amazing</span>
+</h1>
+</div>
+<div class="pb-4">
+<p class="text-secondary max-w-xs text-lg font-medium leading-relaxed">
+                        Transforming bold ideas into digital masterpieces. Drop us a line and start your journey today.
+                    </p>
+</div>
+</div>
+<!-- Main Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Contact Form Card -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-[0px_20px_40px_rgba(26,28,28,0.06)]">
+<form action="#" class="space-y-8" method="POST">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="block text-sm font-semibold tracking-wide text-secondary ml-1" for="name">Full Name</label>
+<input class="w-full bg-surface-container border-none rounded-lg px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-surface-container-lowest transition-all duration-300 placeholder:text-outline/50" id="name" name="name" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="block text-sm font-semibold tracking-wide text-secondary ml-1" for="email">Email Address</label>
+<input class="w-full bg-surface-container border-none rounded-lg px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-surface-container-lowest transition-all duration-300 placeholder:text-outline/50" id="email" name="email" placeholder="hello@skillxa.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="block text-sm font-semibold tracking-wide text-secondary ml-1" for="message">Message</label>
+<textarea class="w-full bg-surface-container border-none rounded-lg px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-surface-container-lowest transition-all duration-300 placeholder:text-outline/50 resize-none" id="message" name="message" placeholder="Tell us about your project..." rows="5"></textarea>
+</div>
+<button class="w-full md:w-auto bg-gradient-to-br from-primary to-primary-container text-on-primary px-12 py-5 rounded-full font-bold text-lg hover:shadow-[0_0_30px_rgba(188,0,9,0.3)] hover:-translate-y-1 transition-all duration-300 active:scale-95 flex items-center justify-center gap-3" type="submit">
+                            Send Message
+                            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">send</span>
+</button>
+</form>
+</div>
+<!-- Info Column -->
+<div class="lg:col-span-5 space-y-8">
+<!-- Location Info -->
+<div class="bg-surface-container-low rounded-xl p-8 space-y-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed-variant">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-xl">Our Studio</h3>
+<p class="text-secondary font-medium">Innovation Hub, Silicon Valley, CA</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed-variant">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-xl">Email Us</h3>
+<p class="text-secondary font-medium">hello@skillxa.com</p>
+</div>
+</div>
+</div>
+<!-- Social Icons -->
+<div class="flex gap-4">
+<a class="w-14 h-14 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface hover:text-primary transition-all duration-300 shadow-sm border border-outline-variant/15 hover:border-primary/30 group" href="#">
+<span class="material-symbols-outlined" data-icon="share">share</span>
+</a>
+<a class="w-14 h-14 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface hover:text-primary transition-all duration-300 shadow-sm border border-outline-variant/15 hover:border-primary/30" href="#">
+<span class="material-symbols-outlined" data-icon="language">language</span>
+</a>
+<a class="w-14 h-14 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface hover:text-primary transition-all duration-300 shadow-sm border border-outline-variant/15 hover:border-primary/30" href="#">
+<span class="material-symbols-outlined" data-icon="campaign">campaign</span>
+</a>
+</div>
+<!-- CTA Mini Card -->
+<div class="relative overflow-hidden bg-primary-container rounded-xl p-8 text-on-primary shadow-xl group">
+<div class="relative z-10">
+<h4 class="text-2xl font-headline font-black mb-2">Need a faster response?</h4>
+<p class="text-on-primary/80 mb-6">Schedule a direct 15-min discovery call with our experts.</p>
+<a class="inline-flex items-center gap-2 bg-white text-primary px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform" href="#">
+                                Book Now
+                                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="absolute -right-8 -bottom-8 w-40 h-40 bg-white/10 rounded-full blur-3xl group-hover:scale-150 transition-transform duration-700"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Map Section -->
+<section class="w-full h-[500px] mt-24 relative grayscale hover:grayscale-0 transition-all duration-1000">
+<div class="absolute inset-0 bg-gradient-to-b from-background to-transparent h-24 z-10"></div>
+<img class="w-full h-full object-cover" data-alt="clean minimalist vector-style map of a city in light grey and white tones with red focal points" data-location="Silicon Valley" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASIk5x9SZYlV_ab32iNcoJYIlHfakOvwpddkEgwWqMYdMUHIBQR2-xl9wPLNx5hahm3DI7Eq9cIgOwK-fy98koN2oRwoa3C8jCj3sPDIKFqWUQVCau0yTH0PXtJtXrat5J9-bm6pZWXDM-eSuA4OY0WvJDoJ6RP2rNtHQVoIHXc1la8GTOd3_cUjiodlMBlmviDGbiYXH0IpRWIL5Trjg81vuo3QQ_5aL6ZWguGLaQMoaWZYHk9wM246SUyanD_trh59GS0C7DGYm8"/>
+<div class="absolute inset-0 bg-primary/5 pointer-events-none"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="relative">
+<div class="absolute inset-0 animate-ping rounded-full bg-primary/40 opacity-75"></div>
+<div class="relative w-12 h-12 bg-primary rounded-full border-4 border-white flex items-center justify-center shadow-2xl">
+<span class="material-symbols-outlined text-white text-xl" style="font-variation-settings: 'FILL' 1;">stars</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-[3rem] mt-20 bg-neutral-50 dark:bg-neutral-900">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-12 font-['Inter'] text-sm tracking-wide">
+<div class="md:col-span-2">
+<div class="text-xl font-bold text-neutral-900 dark:text-white mb-6">Skillxa Technologies</div>
+<p class="text-neutral-500 max-w-sm leading-relaxed mb-8">
+                    Crafting premium digital experiences for future-focused brands. We blend editorial design with cutting-edge technology.
+                </p>
+<p class="text-neutral-500">© 2024 Skillxa Technologies. All rights reserved.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="text-on-surface font-bold mb-2">Company</h5>
+<a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200" href="#">About</a>
+<a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200" href="#">Careers</a>
+<a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200" href="#">Newsletter</a>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="text-on-surface font-bold mb-2">Legal</h5>
+<a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200" href="#">Privacy Policy</a>
+<a class="text-neutral-500 hover:text-red-500 transition-colors hover:translate-y-[-2px] transition-transform duration-200" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Home Page - Skillxa Technologies -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed": "#410001",
+                    "inverse-primary": "#ffb4a9",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-variant": "#e2e2e2",
+                    "surface-container-high": "#e8e8e8",
+                    "surface-tint": "#c00009",
+                    "on-secondary": "#ffffff",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed": "#e5e2e1",
+                    "primary-fixed": "#ffdad5",
+                    "on-surface": "#1a1c1c",
+                    "on-tertiary-fixed": "#001d33",
+                    "on-secondary-fixed": "#1c1b1b",
+                    "on-secondary-container": "#656464",
+                    "secondary-fixed-dim": "#c8c6c5",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#fdfcff",
+                    "primary-container": "#ea000e",
+                    "tertiary-fixed": "#cfe5ff",
+                    "on-tertiary": "#ffffff",
+                    "tertiary": "#006099",
+                    "on-surface-variant": "#5f3e3a",
+                    "on-primary-container": "#fffbff",
+                    "secondary": "#5f5e5e",
+                    "on-primary-fixed-variant": "#930005",
+                    "secondary-container": "#e5e2e1",
+                    "error-container": "#ffdad6",
+                    "background": "#f9f9f9",
+                    "primary": "#bc0009",
+                    "on-secondary-fixed-variant": "#474646",
+                    "surface-container": "#eeeeee",
+                    "surface": "#f9f9f9",
+                    "on-background": "#1a1c1c",
+                    "outline-variant": "#eabcb5",
+                    "outline": "#946e68",
+                    "tertiary-fixed-dim": "#99cbff",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-bright": "#f9f9f9",
+                    "primary-fixed-dim": "#ffb4a9",
+                    "surface-dim": "#dadada",
+                    "tertiary-container": "#0079c0",
+                    "error": "#ba1a1a",
+                    "on-primary": "#ffffff",
+                    "inverse-surface": "#2f3131",
+                    "on-tertiary-fixed-variant": "#004a78",
+                    "surface-container-low": "#f3f3f3",
+                    "on-error": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glow-red:hover {
+            box-shadow: 0 0 20px rgba(188, 0, 9, 0.2);
+        }
+        .tonal-shift {
+            background: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(249,249,249,0.8));
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-white/80 dark:bg-neutral-950/80 backdrop-blur-xl shadow-[0px_20px_40px_rgba(26,28,28,0.06)]">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="text-2xl font-black tracking-tighter text-neutral-900 dark:text-white font-headline">
+                Skillxa Technologies
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-headline font-bold tracking-tight">
+<a class="text-red-600 dark:text-red-500 border-b-2 border-red-600 pb-1" href="#">Home</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">About</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Services</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Projects</a>
+<a class="text-neutral-600 dark:text-neutral-400 hover:text-red-600 transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-8 py-3 rounded-full font-bold shadow-[0px_10px_20px_rgba(188,0,9,0.2)] hover:scale-95 active:scale-90 transition-transform duration-300">
+                Get Started
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative pt-20 pb-32 overflow-hidden">
+<div class="absolute top-0 right-0 -z-10 w-2/3 h-full opacity-20">
+<div class="absolute top-20 right-20 w-96 h-96 bg-primary rounded-full blur-[120px]"></div>
+<div class="absolute bottom-20 right-40 w-64 h-64 bg-primary-container rounded-full blur-[100px]"></div>
+</div>
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<span class="inline-block px-4 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant text-xs font-bold uppercase tracking-widest">
+                        Future-Proof Engineering
+                    </span>
+<h1 class="text-6xl md:text-7xl font-extrabold font-headline leading-[1.05] tracking-tighter text-on-surface">
+                        Engineering <br/> <span class="text-primary italic">Digital</span> Excellence.
+                    </h1>
+<p class="text-xl text-secondary max-w-lg leading-relaxed">
+                        We build powerful web, mobile, and cloud solutions that scale with your business using cutting-edge architectural patterns.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-10 py-5 rounded-xl font-bold text-lg shadow-[0px_20px_40px_rgba(188,0,9,0.25)] hover:glow-red transition-all">
+                            Get Started
+                        </button>
+<button class="px-10 py-5 rounded-xl font-bold text-lg border border-outline-variant/30 text-on-surface hover:bg-surface-container-low transition-all">
+                            View Projects
+                        </button>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover" data-alt="Futuristic 3D glass abstract geometric shapes floating in a clean white space with soft red ambient light reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfn-0cRD-GGOII1N7DIc9U0U6PwZK4ILtA4cfV5UuSK4TgMXQrTYUePpaPCxDbLtnelG5iOZhS5oqDHGh__hEIsq3IKpPqZlzLrAQWVIwNCccq0q_sL8hD6XxKL5tY7YNpy86g6qDrwpgAyCyzkEMEDQtIjBrlAfasCrFdMLG-Cm41BDiAkhBjC1d-TXtxjD9EOHXUZ2vbC3LaNIZ5QKa2j9DZ6ednRR91fB9vXBq4AcYA3sBs1MHTn3b_-orr8N2Reu-1GnSYxolt"/>
+</div>
+<!-- Stats Overlays -->
+<div class="absolute -bottom-10 -left-10 p-8 bg-surface-container-lowest shadow-[0px_20px_40px_rgba(0,0,0,0.06)] rounded-xl border border-outline-variant/10">
+<p class="text-4xl font-black text-primary font-headline">250+</p>
+<p class="text-sm font-medium text-secondary">Projects Delivered</p>
+</div>
+<div class="absolute top-10 -right-5 p-6 bg-white/70 backdrop-blur-md shadow-xl rounded-xl border border-white/40">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<p class="text-sm font-bold">99.9% Uptime SLA</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trusted By / Stats Row -->
+<section class="py-12 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-12 md:gap-24 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+<span class="font-headline font-black text-2xl tracking-tighter">CLOUDSCALE</span>
+<span class="font-headline font-black text-2xl tracking-tighter">VORTEX.AI</span>
+<span class="font-headline font-black text-2xl tracking-tighter">NEXUS_SYS</span>
+<span class="font-headline font-black text-2xl tracking-tighter">FLUX_CORE</span>
+<span class="font-headline font-black text-2xl tracking-tighter">QUANTUM</span>
+</div>
+</section>
+<!-- Services Overview: Bento Grid -->
+<section class="py-32 bg-background">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-20 space-y-4">
+<h2 class="text-4xl md:text-5xl font-black font-headline tracking-tighter">Our Core Expertise</h2>
+<p class="text-secondary text-lg max-w-2xl">End-to-end digital engineering tailored for the modern enterprise.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[600px]">
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl p-10 flex flex-col justify-between hover:shadow-2xl transition-all duration-500 group">
+<div class="w-16 h-16 rounded-2xl bg-primary-fixed flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl">terminal</span>
+</div>
+<div>
+<h3 class="text-3xl font-bold font-headline mb-4">Web Architecture</h3>
+<p class="text-secondary leading-relaxed max-w-md">Building high-performance Progressive Web Apps and enterprise portals with React, Next.js and robust microservices.</p>
+</div>
+</div>
+<div class="md:col-span-4 bg-primary rounded-xl p-10 text-white flex flex-col justify-between overflow-hidden relative">
+<div class="absolute -right-10 -top-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
+<div class="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-white text-3xl">smartphone</span>
+</div>
+<div>
+<h3 class="text-3xl font-bold font-headline mb-4">Mobile Hub</h3>
+<p class="text-white/80 leading-relaxed">Native-feel cross-platform apps that dominate the App Store.</p>
+</div>
+</div>
+<div class="md:col-span-4 bg-surface-container-low rounded-xl p-10 flex flex-col justify-between hover:bg-surface-container transition-colors">
+<div class="w-14 h-14 rounded-2xl bg-white flex items-center justify-center mb-8 shadow-sm">
+<span class="material-symbols-outlined text-on-surface text-2xl">cloud_done</span>
+</div>
+<div>
+<h4 class="text-2xl font-bold font-headline mb-3">Cloud Scaling</h4>
+<p class="text-secondary text-sm">Automated AWS/Azure infrastructure with zero-downtime deployments.</p>
+</div>
+</div>
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl p-10 flex items-center gap-10 hover:shadow-xl transition-shadow">
+<div class="hidden lg:block w-1/3 rounded-lg overflow-hidden h-32">
+<img class="w-full h-full object-cover" data-alt="Close up of high-tech server circuit board with red glowing data lines and futuristic hardware aesthetics" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVZn80s0rTS1oky_E8XWwLEI6lS1LvqnLh3IVxv-kJXq7seiZWD84rCaFAMIsidZheB7Aa_a7Xm-XUrtta-3XjXKMYWzrImdcC2MESOg17Zd8Yiq2qYNEnCNyhOwrr3QXguHt7YV_9sHDvx81G54ytMqWXE0B0MlRD6WJrX7y-kOGCfTdMptHB4aGb4OZ5HURL4xfVqIshInKAY8psdv9Sgm2OHAblHo4X_380mp3YkEECKBvqG_LgTQeDixJWQ0FGvtYKmHLG-U88"/>
+</div>
+<div class="flex-1">
+<h4 class="text-2xl font-bold font-headline mb-3">Custom DevOps</h4>
+<p class="text-secondary text-sm">We optimize your CI/CD pipelines to ensure rapid, secure code delivery.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Projects -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-16">
+<div class="space-y-4">
+<h2 class="text-4xl md:text-5xl font-black font-headline tracking-tighter">Case Studies</h2>
+<p class="text-secondary text-lg">Real results for industry leaders.</p>
+</div>
+<button class="font-bold text-primary flex items-center gap-2 group">
+                        View All Projects <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="group cursor-pointer">
+<div class="aspect-[16/10] rounded-xl overflow-hidden mb-8 relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Clean minimalist dashboard interface displayed on a laptop in a bright modern office setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7n3c3wyfzzjdwCjjPRmqFM2q4KRSQteb9bOwKFD-ySHtbCfcBpalIJLuitbhDfSmpU1T_ozM0bFK_i8EosoatrA1pvEZScwcDRvIN7y3UcOla6f1-IqYGdV3nBZgKybSGhT0gHLjyHx2X94mVbuZktHrbpdJ8FT69q6hy6dhyamQCaiZMFR3ihym-c7k148x0-H2AWdNjHe4_10QUUoucU_9KlmCq6mgh_2YpQsChNEUgbUbaF2ARP0DTvfABxJQ91HxER3J1N-TY"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-2xl font-bold font-headline mb-2">FinTech Core 2.0</h4>
+<p class="text-secondary">Banking Infrastructure Upgrade</p>
+</div>
+<span class="px-4 py-1 bg-white rounded-full text-xs font-bold border border-outline-variant/20">Cloud</span>
+</div>
+</div>
+<div class="group cursor-pointer">
+<div class="aspect-[16/10] rounded-xl overflow-hidden mb-8 relative">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Modern mobile app UI design showing health metrics and charts on a clean background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWxQEbzX_L3puT4erzs9GxUyZGqlvuUiHlVNZtbT4FHbUONXvyrRpODF0vGme5TrQBbMhp9fKo0WMIfC5oAfXBamEKFnfzGxyaG3mhhl1JTx-ROHRWQHjOVX0BPuguiwyWvt8FvfEJ_GR7geFUtke_mMEtIdUk_EXbjKeiUTneIzlGa2xE2MvuOq1fSkE8R6PSEEWTGZ4Sg21qg1l7v8ZHmEKiAqUsVKK0zctcI-z8uonQBuCgtXRHKgDBfDskkb3bRzmxQEapg3Zy"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-2xl font-bold font-headline mb-2">HealthTrack AI</h4>
+<p class="text-secondary">Patient Monitoring Ecosystem</p>
+</div>
+<span class="px-4 py-1 bg-white rounded-full text-xs font-bold border border-outline-variant/20">Mobile</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Tech Stack -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-6 text-center">
+<h3 class="text-sm font-black uppercase tracking-[0.3em] text-primary/60 mb-12">The Stack We Trust</h3>
+<div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70">
+<div class="flex items-center gap-3 font-headline font-bold text-xl"><span class="w-2 h-2 rounded-full bg-primary"></span> React</div>
+<div class="flex items-center gap-3 font-headline font-bold text-xl"><span class="w-2 h-2 rounded-full bg-primary"></span> Node.js</div>
+<div class="flex items-center gap-3 font-headline font-bold text-xl"><span class="w-2 h-2 rounded-full bg-primary"></span> AWS</div>
+<div class="flex items-center gap-3 font-headline font-bold text-xl"><span class="w-2 h-2 rounded-full bg-primary"></span> TypeScript</div>
+<div class="flex items-center gap-3 font-headline font-bold text-xl"><span class="w-2 h-2 rounded-full bg-primary"></span> Kubernetes</div>
+<div class="flex items-center gap-3 font-headline font-bold text-xl"><span class="w-2 h-2 rounded-full bg-primary"></span> PostgreSQL</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Skillxa -->
+<section class="py-32 bg-on-surface text-white rounded-t-[3rem]">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="text-5xl md:text-6xl font-black font-headline tracking-tighter mb-8 leading-tight">Innovation <br/> at Scale.</h2>
+<div class="space-y-12">
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-primary text-4xl">speed</span>
+<div>
+<h4 class="text-xl font-bold mb-2">Performance First</h4>
+<p class="text-white/60 leading-relaxed">We optimize every millisecond. Our architecture is designed for speed and responsiveness under heavy load.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-primary text-4xl">security</span>
+<div>
+<h4 class="text-xl font-bold mb-2">Uncompromising Security</h4>
+<p class="text-white/60 leading-relaxed">SOC2 compliant methodologies integrated into every line of code we ship.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-primary text-4xl">hub</span>
+<div>
+<h4 class="text-xl font-bold mb-2">Elastic Scalability</h4>
+<p class="text-white/60 leading-relaxed">Infrastructure that grows as you grow, preventing bottlenecks during peak traffic.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-1 bg-gradient-to-r from-primary to-primary-container rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+<div class="relative bg-neutral-900 rounded-xl overflow-hidden border border-white/5">
+<img class="w-full h-full object-cover" data-alt="Digital network visualization with glowing red data nodes and connections on a dark background representing high-tech connectivity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwYlq12C4N3A2XvOWcvUiFpMbr8hyYizrP41O0MBh-ksmHs4255Tbu5lMG8hVbI5vHK11RhMrQWIeAJaSPRzNg7g8DlHOKFokxdY142DC6OK5bqSS_NyLFFid5n2dZ3LY62biedgmrDxdm_ivUhJTRFgYMkgANNVlAf8xxhLEVyLjiXLgLPAvk4UaBxPLcUhWb79Y39BxjJ2ELolxTz8_jH55QkYUyHtvJTtpLr5v1l7tPoFRIglLaSQ7U-pdXe2RQxolwdHlBQN2J"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20">
+<h2 class="text-4xl font-black font-headline tracking-tighter mb-4">Partner Voices</h2>
+<p class="text-secondary">What the leaders of industry say about our partnership.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest p-10 rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.03)] border border-outline-variant/10">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface font-medium leading-relaxed mb-8 italic">"Skillxa transformed our legacy systems into a modern microservices architecture in record time. Their technical depth is unparalleled."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Professional portrait of a male tech executive in a suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNf-Rfzq0oiWiv9it0zczpNS2kKq6OlihyEavuwYV2_IlQeQV3IWSL_hkk0DvlXw5Sgn5nz2pLUOFxknmb6siY6Yq3Il9QmtSq_EXMfR4sLuCT16vXRLPtcL0BLd1k6i0FG6cXqM8PsQnAXQB-CvfqFPmpHcd3xadKddFX4PoCosBdPtwf9MvXTHPv30QNnzqD-9ZaPt7BES-RySp3FbLg5EcOpagWrBh6_Mp4Tu-wN6GxgqnV5LcqHbV3xSHtNUEywwBLhuhdRhy-"/>
+</div>
+<div>
+<p class="font-bold text-sm">Marcus Chen</p>
+<p class="text-xs text-secondary">CTO at Nexus_Sys</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-10 rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.03)] border border-outline-variant/10">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface font-medium leading-relaxed mb-8 italic">"The level of transparency and engineering rigor they bring to the table is exactly what we needed for our series B scale-up."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Professional portrait of a female entrepreneur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAN4hQ3IvWkZmRn_8K7wQS0TUwRuA_kaQVT7V636v_CxRNP5e6jeLV9076InAOGHYJeOWpVV0eSiW3kj-KjHFI8F7-yPhTZ_Nzl9p7d-I6VQ18UOf1dcmcYo8ll6KFjhMHFU7lBU3hXhAIA3df5kt7nbWkVdoUVbIRHMjFv151wxKnmdzhvFuyiDc_8clpjEnXaFVSCcQ2MR454GOzvWTHlUwgE5dn-fbEnuU12RlKgUwA9qiLvcNmrDCKDHKUDQNEm1eRuD4FS_REI"/>
+</div>
+<div>
+<p class="font-bold text-sm">Sarah Jenkins</p>
+<p class="text-xs text-secondary">Founder, Vortex.AI</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-10 rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.03)] border border-outline-variant/10">
+<div class="flex text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface font-medium leading-relaxed mb-8 italic">"Not just a development agency, but a strategic engineering partner. They proactively suggested features that saved us millions in churn."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Portrait of a smiling professional male" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZgkCR4wkxe8cXXOiC1ii4i-6aRAPna3EXn4pLFjiXBgf-HA4KIFAbeymYYPxjpXiP3LFuCrgYtSkFL6aIvJ3i-N7wW6Zlfr7MuChDZkrMu_A8SU5c0KxtKdc4B_p43PR5JKADDWsuFIAXu8mgaB-TQxPzK-ZQx3g3fV1kHy-eJRxUVVYdkvbhqn7vReONmKmxAOjTgo-LK1tRQx7tGOAVNmUZdrcWzvHfrKaInQsSYruMcO4epu6n2PNU55wgdnA_e49xVHpF9OJ5"/>
+</div>
+<div>
+<p class="font-bold text-sm">David Miller</p>
+<p class="text-xs text-secondary">VP Eng at Flux_Core</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA Banner -->
+<section class="py-20 px-6">
+<div class="max-w-7xl mx-auto bg-gradient-to-br from-primary to-primary-container rounded-xl overflow-hidden relative p-12 md:p-24 text-center">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 space-y-8">
+<h2 class="text-4xl md:text-6xl font-black font-headline text-white tracking-tighter">Ready to Build the Future?</h2>
+<p class="text-white/80 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                        Join the hundreds of companies scaling with Skillxa. Let's engineer your next digital breakthrough.
+                    </p>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-white text-primary px-12 py-5 rounded-xl font-bold text-xl hover:scale-105 transition-transform">
+                            Start Your Project
+                        </button>
+<button class="bg-primary-container/20 backdrop-blur-md text-white border border-white/20 px-12 py-5 rounded-xl font-bold text-xl hover:bg-white/10 transition-all">
+                            Talk to an Expert
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-[3rem] mt-20 bg-neutral-50 dark:bg-neutral-900">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1 space-y-6">
+<div class="text-xl font-bold text-neutral-900 dark:text-white font-headline">Skillxa Technologies</div>
+<p class="text-neutral-500 font-body text-sm leading-relaxed">Precision-engineered software solutions for the global elite. We scale complexity into simplicity.</p>
+</div>
+<div>
+<h5 class="font-headline font-bold text-neutral-900 mb-6">Platforms</h5>
+<ul class="space-y-4 font-body text-sm">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Cloud Dashboard</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Mobile Hub</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Developer Portal</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">API Reference</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-headline font-bold text-neutral-900 mb-6">Company</h5>
+<ul class="space-y-4 font-body text-sm">
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Careers</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Newsletter</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-neutral-500 hover:text-red-500 transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-headline font-bold text-neutral-900 mb-6">Connect</h5>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:translate-y-[-2px] transition-transform shadow-sm" href="#"><span class="material-symbols-outlined text-sm">public</span></a>
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:translate-y-[-2px] transition-transform shadow-sm" href="#"><span class="material-symbols-outlined text-sm">alternate_email</span></a>
+<a class="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:translate-y-[-2px] transition-transform shadow-sm" href="#"><span class="material-symbols-outlined text-sm">call</span></a>
+</div>
+<p class="mt-6 text-xs text-neutral-400">© 2024 Skillxa Technologies. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</body></html>
